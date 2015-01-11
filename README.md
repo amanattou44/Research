@@ -12,7 +12,8 @@ gulp test // client and server
 ```
 
 ## Usage
-```javascript:Node
+- Node.js
+```javascript
 > require('./node_modules/research/research');
 {}
 
@@ -29,7 +30,8 @@ undefined
   'toPrecision' ]
 ```
 
-```html:Client
+- Client.js
+```html
 <script src='./node_modules/research/research.js'></script>
 
 > var r = new Research;
