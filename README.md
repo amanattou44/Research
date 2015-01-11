@@ -13,7 +13,7 @@ gulp test // client and server
 
 ## Usage
 ```javascript:Node
-> require('./node_modules/research/index');
+> require('./node_modules/research/research');
 {}
 
 > var r = new Research;
@@ -30,7 +30,7 @@ undefined
 ```
 
 ```html:Client
-<script src='./node_modules/research/index'></script>
+<script src='./node_modules/research/research.js'></script>
 
 > var r = new Research;
 < undefined

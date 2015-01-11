@@ -34,7 +34,7 @@ gulp.task('browserify', function() {
     entries: ['./lib/research.js']
   })
   .bundle()
-  .pipe(sourceStream('index.js'))
+  .pipe(sourceStream('research.js'))
   .pipe(gulp.dest('./'));
 });
 
