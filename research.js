@@ -4,8 +4,6 @@
 (function(global) {
   'use strict';
 
-  var version = '0.0.2';
-
   // platform enum
   var platform = {
     BROWSER:      'document' in global ? true : false,
