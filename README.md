@@ -13,6 +13,7 @@ gulp test // client and server
 
 ## Usage
 - Node.js
+
 ```javascript
 > require('./node_modules/research/research');
 {}
@@ -35,6 +36,7 @@ undefined
 ```
 
 - Client.js
+
 ```html
 <script src='./node_modules/research/research.js'></script>
 
