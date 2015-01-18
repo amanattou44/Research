@@ -4,7 +4,7 @@
 (function(global) {
   'use strict';
 
-  var version = '0.0.1';
+  var version = '0.0.2';
 
   // platform enum
   var platform = {
@@ -131,7 +131,7 @@
         return func.match(grep);
       });
     }
-    return results;
+    return console.log(results);
   };
 
   // Public API
